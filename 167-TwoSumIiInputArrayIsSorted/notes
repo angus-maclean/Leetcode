@@ -1,0 +1,13 @@
+Intuition
+I thought immediately that I should use two pointers because it seemed like a natural way to add the values and move the pointers along. It's been a while since I coded at all so I had to remember where to start them.
+
+Approach
+I used pointers at the start and the end of the array. Each one was moved depending on if the target was higher or lower than the sum of the pointers. It is a pretty straightforward implementation of the two pointers method. The tricky parts for me were probably just the syntax ie numbers[i] gets the VALUE at the index i in the numbers array, just i is the index etc... This was my first problem back after a long while.
+
+Complexity
+Time complexity:
+O(n) = linear. This is because the pointers just move a fixed number of positions at a time each iteration (once), and they move toward each other then stop so the whole thing can only run a fixed number of times depending on the size of the input array.
+
+Space complexity:
+O(1) = constant space. There are just a few variables created at the beginning and then no more are created, and no data structures are created or added to.
+
